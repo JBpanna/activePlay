@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   get 'main/index'
   get 'main/loaddata'
   get 'main/pizzas'
+  get 'fakedog/selectDog'
+  get 'fakedog/fiftyDog'
+  get 'fakedog/selectAgeDog'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
